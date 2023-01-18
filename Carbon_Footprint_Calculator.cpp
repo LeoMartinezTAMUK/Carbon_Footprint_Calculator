@@ -72,7 +72,7 @@ public:
 };
 
 /**
- * Create three small classes unrelated by inheritance—classes Building, Car and
+ * Create three small classes unrelated by inheritanceâ€”classes Building, Car and
  * Bicycle.Give each class some unique appropriate attributes and behaviors that
  * it does not have in common with other classes. Have each of your classes
  * inherit from that abstract class and implement the getCarbonFootprint method
@@ -83,7 +83,7 @@ public:
 class Building : CarbonFootprint {
     // from "buildings.com" lol:
     // https://www.buildings.com/articles/30925/how-calculate-your-carbon-footprint
-    // The bulk of a building’s footprint is energy use, including electricity,
+    // The bulk of a buildingâ€™s footprint is energy use, including electricity,
     // natural gas, and other sources tied to fossil fuel. Review your utility
     // bills and conduct some basic calculations to reveal a large portion of
     // these impacts.
@@ -318,9 +318,9 @@ int main() {
     vector<string> carbonTotals;
 
     /**
-     * then iterates through the vector, polymorphically invoking each object’s
+     * then iterates through the vector, polymorphically invoking each objectâ€™s
      * getCarbonFootprint method. For each object, print some identifying
-     * information and the object’s carbon footprint.
+     * information and the objectâ€™s carbon footprint.
      */
     for (auto& footprint : footprints)
         carbonTotals.push_back("total carbon footprint: "
